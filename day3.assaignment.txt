@@ -1,0 +1,57 @@
+
+Resume in json format
+
+var jsondata = {
+    name: "scrpion",
+    presentlocation:"xxx",
+    pnumber:1234567890,
+    email:"ccc",
+    technicalskill:["css","html","javascript",],
+    education:"bca",
+    
+};
+console.log(jsondata);
+
+
+json illitrate loops.
+
+const obj = [
+     {
+         brand:"apple",
+         company:"ios",
+        
+    },
+     {
+         brand:"dell",
+         company:"insprion",
+     },
+     ];
+     obj.forEach((x) => {
+         for (var key in x){
+             console.log (key,x[key]);
+         }
+     });
+ var x ={
+     1:{
+         name:"xxx",
+         email:"xxx@gmail.com",
+     },
+     2:{
+         name:"nnn",
+         email:"nnn@gmail.com",
+     },
+ };
+ console.log(x[1].name);
+
+var obj = [
+    {
+        name:"xxx",
+        company:"nnn",
+        skill:["javascript","html","css"],
+        
+    },
+
+    ];
+    for(i=0;i++<obj.length;i++){
+        console.log(obj);
+    }
